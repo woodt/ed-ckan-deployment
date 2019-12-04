@@ -1,0 +1,7 @@
+name: production
+restart: "systemctl restart httpd"
+virtualenv: /usr/lib/ckan/default
+config: /etc/ckan/default/production.ini
+user: ckan
+group: ckan
+

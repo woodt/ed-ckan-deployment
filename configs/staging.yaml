@@ -1,0 +1,7 @@
+name: staging
+restart: "systemctl restart httpd"
+virtualenv: /usr/lib/ckan/default
+config: /etc/ckan/default/development.ini
+user: ckan
+group: ckan
+

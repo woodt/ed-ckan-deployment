@@ -1,0 +1,11 @@
+deployment:
+  - install:
+    - name: ckanext-ed
+      src:  git+https://github.com/CivicActions/ckanext-ed.git
+      tag:  v0.5.15
+    - name: ckanext-collections
+      src:  git+https://github.com/CivicActions/ckanext-collections.git
+      tag:  v0.2.2
+
+
+  
